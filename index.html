@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshanam Chits & Finance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #1a237e;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #1a237e, #3949ab);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .logo-text {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .tagline {
+            font-style: italic;
+            opacity: 0.9;
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        .slogan {
+            color: #ffd700;
+            font-weight: bold;
+            margin-top: 0.5rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        nav {
+            background-color: #283593;
+            padding: 0.8rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #3949ab;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        .hero {
+            background-color: #f5f5f5;
+            padding: 3rem;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 3rem;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-card h3 {
+            color: #1a237e;
+            margin-bottom: 1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        .contact-info {
+            background-color: #f5f5f5;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        .contact-info ul {
+            list-style: none;
+        }
+        .contact-info li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #1a237e;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #283593;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">DCF</div>
+            <div class="logo-text">Darshanam Chits & Finance</div>
+        </div>
+        <div class="tagline">Your Trusted Partner in Financial Growth</div>
+        <div class="slogan">"Building Trust, Creating Wealth, Securing Futures"</div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to Darshanam Chits & Finance</h1>
+            <p>We provide reliable and trustworthy financial solutions to help you achieve your goals.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>Chit Funds</h3>
+                    <p>Secure and well-managed chit fund schemes with flexible payment options and attractive returns.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Personal Loans</h3>
+                    <p>Quick and hassle-free personal loans with competitive interest rates and flexible repayment terms.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Business Finance</h3>
+                    <p>Tailored financial solutions for businesses of all sizes to support growth and expansion.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Darshanam Chits & Finance, founded by Venkat Swamy Darshanam, has been serving customers with integrity and professionalism. We understand the importance of financial security and work diligently to provide the best financial solutions to our clients.</p>
+            <p>Our mission is to help individuals and businesses achieve their financial goals through reliable and transparent services.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <ul>
+                    <li>📍 Address: Bhoothpur Mandal, Mahabub Nagar Dist, Telangana</li>
+                    <li>📞 Phone: 9676162519</li>
+                    <li>✉️ Email: dvenktaswamy6069@gmail.com</li>
+                    <li>🕒 Business Hours: Monday to Saturday, 9:00 AM - 7:00 PM</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Darshanam Chits & Finance. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
